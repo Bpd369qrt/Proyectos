@@ -1,0 +1,128 @@
+/*
+colores frios: https://coolors.co/f7f7f2-e4e6c3-899878-222725-121113
+colores vivos: https://coolors.co/08415c-cc2936-6b818c-f1bf98-eee5e9
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/*ESTILOS ENCABEZADO, HEADER, MENU, LOGO*/
+
+.encabezado{
+    padding: 1.5rem;
+    background-color: #E4E6C3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    /*border: solid 1px black; Visualizar sin img*/
+    border-radius: 50%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li{
+    margin-right: 2.5rem;
+}
+
+.menu a{
+    color: #899878;
+    border: solid 2px transparent;
+}
+
+.menu a:hover{
+    background-color: #899878;
+    border: solid 2px #899878;
+    border-radius: 10%;
+    color: #E4E6C3;
+}
+
+/*ESTILOS NOMBRE MARCA*/
+
+.nombre_marca{
+    background-color: #121113;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre_marca{
+    color: #E4E6C3;
+}
+
+
+/*ESTILOS MAIN, CAJAS Y PRODUCTOS*/
+h2{
+    color: #121113;
+}
+
+.producto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column; /*genera la dispocicion vertical*/
+    justify-content: center; /*centra el verticalmente*/
+    align-items: center; /*centra el horizontalmete*/
+    text-align: center;
+}
+
+.caja img{
+    height: 300px;
+    width: 300px;
+    border: solid 1px transparent; /*Visualizar sin img*/
+    border-radius: 3%;
+}
+
+/*.caja a:hover{
+    border: solid 1px #CC2936;
+    border-radius: 3%;
+}
+*/
+
+/*ESTILOS DE SECCION FORMULARIO Y OFERTAS*/
+
+.form_ofer{
+    background-color: #E4E6C3;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario_registro{
+    border: solid 2px #899878;
+    height: 589px;
+    width: 388px;
+}
+
+.formulario_registro img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.formulario_registro h4{
+    color: #121113;
+}
+
+.oferta{
+    /*border: solid 1px red;*/
+    height: 600px;
+    width: 600px;
+}
