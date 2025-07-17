@@ -115,7 +115,10 @@ h2{
     width: 388px;
 }
 
+
+
 .titulo_formulario{
+    margin: 1vh;
     border: solid 1px red;
     display: flex;
     justify-content: space-around;
@@ -132,9 +135,15 @@ h2{
     color: #121113;
 }
 
-#mi-formulario{
-
+.cuerpo_form {
+    margin: 1vh;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 /*OFERTAS*/
 .oferta{
