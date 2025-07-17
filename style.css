@@ -96,7 +96,10 @@ h2{
 }
 */
 
+
 /*ESTILOS DE SECCION FORMULARIO Y OFERTAS*/
+
+/*FORMULARIO*/
 
 .form_ofer{
     background-color: #E4E6C3;
@@ -112,15 +115,28 @@ h2{
     width: 388px;
 }
 
+.titulo_formulario{
+    border: solid 1px red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 .formulario_registro img{
     height: 100px;
     border-radius: 50%;
 }
 
-.formulario_registro h4{
+.formulario_registro h2{
     color: #121113;
 }
 
+#mi-formulario{
+
+}
+
+/*OFERTAS*/
 .oferta{
     /*border: solid 1px red;*/
     height: 600px;
